@@ -6,5 +6,6 @@ A new approach to modelling epithelial cells and tissues 2D
 3) Compile lammps using packages molecule, extra-pair and USER-AREABOND. #Follow instruction from https://docs.lammps.org/Build_cmake.html
 
    # To run cell dynamics:
-1) Ensure template.x is executable. This program creates a custom ring polymer with specified number of atoms.
-2) Run the lammps executable file using the input file "in.demo" 
+1) Download all the files from src folder.
+2) Ensure template.x is executable. This program creates a custom ring polymer with specified number of atoms.
+3) Run the lammps executable file using the input file "in.demo" 
