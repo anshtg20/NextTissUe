@@ -93,11 +93,11 @@ minimize        ${etol} ${ftol} ${maxiter} ${maxeval}
 
 
 ##### replace each of the particle in the minimized configuration with a cell
-#shell ./template.x ${Nbeads_large} ${RadiusLarge}
-#shell cp template.cell template.cell_large
+shell ./template.x ${Nbeads_large} ${RadiusLarge}
+shell cp template.cell template.cell_large
 molecule CellLarge template.cell_large
-#shell ./template.x ${Nbeads_small} ${RadiusSmall}
-#shell cp template.cell template.cell_small
+shell ./template.x ${Nbeads_small} ${RadiusSmall}
+shell cp template.cell template.cell_small
 molecule CellSmall template.cell_small
 include in.replace_particle_w_cells
 
