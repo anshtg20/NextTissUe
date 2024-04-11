@@ -2,8 +2,10 @@
 A new approach to modelling epithelial cells and tissues 2D 
 
 1) Download and install Lammps. The following has been built and tested on Lammps version 2 Aug-2023. Link to download https://www.lammps.org/download.html
-2) To begin, extract the zip file USER-AREABOND.zip into your Lammps src folder. 
-3) Compile Lammps using packages molecule, extra-pair, and USER-AREABOND. #Follow instructions from https://docs.lammps.org/Build_cmake.html
+2) To begin, extract the zip file USER-AREABOND.zip into your Lammps src folder.
+3) Open file 'YOUR_PATH_TO_LAMMPS/lammps-2Aug2023/cmake/CMakeLists.txt'.
+4) In "set(STANDARD_PACKAGES ....)" include 'USER-AREABOND'.
+5) Compile Lammps using packages molecule, extra-pair, and USER-AREABOND. #Follow instructions from https://docs.lammps.org/Build_cmake.html
 
    # To run cell dynamics:
 1) Download all the files in main.
