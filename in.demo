@@ -141,7 +141,7 @@ set group Type2 type 2
 
 ### adjust cell parameters to incorporate rigidity with shape parameter p0
 
-variable p0 equal 0.01*${p0_in}
+#variable p0 equal 0.01*${p0_in}
 variable area_prefac equal ${perimeter_large}*${perimeter_large}/(${area_large}*${p0}*${p0})
 variable modified_area_large equal ${area_prefac}*${area_large}
 variable modified_area_small equal ${area_prefac}*${area_small}
@@ -269,7 +269,7 @@ variable	eps11	equal	 ${epsilon}
 variable        sigma11   equal   1.1*${dia} #*2^(-1.0/6)
 #variable        cut11     equal   ${sigma11} ### purely repulsive
 variable        cut11     equal   0.1*${cut_length_in}*${dia} ###short range attraction
-variable	pre_fac	equal	0.01*${pre_in}
+#variable	pre_fac	equal	0.01*${pre_in}
 variable    eps_wca equal   ${eps11}
 variable	eps_att11	equal	${pre_fac}*${eps_wca}
 variable    eps_att22   equal    ${eps_att11}/10
