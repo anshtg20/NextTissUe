@@ -9,4 +9,4 @@ A new approach to modelling epithelial cells and tissues 2D
 1) Download all the files in main.
 2) Ensure template.x is executable. This program creates a custom ring polymer with a specified number of atoms.
 3) Ensure random_propelling_directions.x is executable. This program generates initial propulsion directions for the cells.
-4) Run the Lammps executable file using the input file "in.demo" 
+4) Run the Lammps executable file using the input file "in.demo". Follow instructions from https://docs.lammps.org/Run_basics.html on how to run Lammps. 
