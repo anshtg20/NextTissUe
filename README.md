@@ -13,10 +13,15 @@ Follow the steps below to install LAMMPS and NextTissUe.
 
 # How to run NextTissuE
 We provide an example Lammps input script that sets up an initial configuration and evolves the system, "in.demo".
+This script includes comments to describe how the simulation is built up. 
+Follow the instructions at https://docs.lammps.org/Run_basics.html to run it.
+
 The script includes comments to describe the different performed steps.
-It relies on the file "template.x" to create a template ring-polymer model.
+It relies on the executables "template.x" to create a template ring-polymer model (a molecule template, in Lammps), and "random_propelling_directions.x" to initialise the self-propelling directions.
+
+To proceed:
 
 1) Download all the files.
-2) Compile "template.cpp" into an executable with the name "template.x" is executable. This program creates a custom ring polymer with a specified number of atoms (a 'molecule' in LAMMPS).
-4) Ensure random_propelling_directions.x is executable. This program generates initial propulsion directions for the cells.
-5) Run the Lammps executable file using the input script "in.demo". This script includes comments to describe how the simulation is built up. Follow the instructions at https://docs.lammps.org/Run_basics.html to run Lammps.
+2) Compile "template.cpp" into an executable with the name "template.x".
+4) Compile "random_propelling_directions.cpp" into an executable with the name "random_propelling_directions.x".
+5) Run the Lammps executable file on the "in.demo" input script. 
