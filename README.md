@@ -14,6 +14,6 @@ Follow the steps below to install LAMMPS and NextTissUe.
 # How to run NextTissuE
 NextTissUe evolves an initial configuration.
 1) Download all the files.
-2) Ensure template.x is executable. This program creates a custom ring polymer with a specified number of atoms (a 'molecule' in LAMMPS).
+2) Combile template.cpp into an executable with name emplate.x is executable. This program creates a custom ring polymer with a specified number of atoms (a 'molecule' in LAMMPS).
 4) Ensure random_propelling_directions.x is executable. This program generates initial propulsion directions for the cells.
 5) Run the Lammps executable file using the input file "in.demo." Follow the instructions at https://docs.lammps.org/Run_basics.html to run Lammps. 
