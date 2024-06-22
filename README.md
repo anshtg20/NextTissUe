@@ -13,7 +13,6 @@ Follow the steps below to install LAMMPS and NextTissUe.
 
 # How to run NextTissuE
 We provide an example Lammps input script that sets up an initial configuration and evolves the system, "in.demo".
-This script includes comments to describe how the simulation is built up. 
 Follow the instructions at https://docs.lammps.org/Run_basics.html to run it.
 
 The script includes comments to describe the different performed steps.
