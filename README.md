@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/c28c14ec-5e6b-44fc-85a4-b1c8a65ab0fa)
+
+
 # NextTissUe
 A new approach to modelling epithelial cells and tissues 2D.
 
@@ -24,3 +27,4 @@ To proceed:
 2) Compile "template.cpp" into an executable with the name "template.x".
 4) Compile "random_propelling_directions.cpp" into an executable with the name "random_propelling_directions.x".
 5) Run the Lammps executable file on the "in.demo" input script. 
+
