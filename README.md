@@ -2,7 +2,8 @@
 
 
 # NextTissUe
-A new approach to modelling epithelial cells and tissues 2D.
+A new approach to modeling epithelial cells and tissues 2D, by A. Pasupalak, W. Zu and M. Pica Ciamarra. 
+See [here](https://arxiv.org/abs/2409.16128) for an introduction.
 
 We provide NextTissUe as an additional package to Lammps, a Large-scale Atomic/Molecular Massively Parallel Simulator, and thank its developers for their work.
 Basic knowledge of Lammps is recommended to run NextTissUe.
